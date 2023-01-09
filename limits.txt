@@ -1,0 +1,5 @@
+tyi@bastion:/sys/fs/cgroup/system.slice/docker-a501838589c3820a2a38572c42b53f2bb1d912d8a2d1fe89aeb520d24f3c219e.scope$ cat memory.max | awk '{$1=$1/1024/1024; print}'
+128
+
+tyi@bastion:/sys/fs/cgroup/system.slice/docker-a501838589c3820a2a38572c42b53f2bb1d912d8a2d1fe89aeb520d24f3c219e.scope$ cat cpu.max
+50000 100000
